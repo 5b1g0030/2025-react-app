@@ -1,0 +1,9 @@
+span{
+    background-color: rgb(219, 219, 219);
+    color: rgb(56, 126, 255);
+    font-size: large;
+    font-weight: bolder;
+    padding: 5px;
+    margin-left: 5px;
+    border-radius: 10px;
+}
