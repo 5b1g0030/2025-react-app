@@ -32,8 +32,13 @@ body {
 }
 
 h1 {
+  color: #ffffff;
   font-size: 3.2em;
   line-height: 1.1;
+}
+
+h2, p{
+  color: #ffffff;
 }
 
 button {

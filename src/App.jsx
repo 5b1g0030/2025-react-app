@@ -4,6 +4,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import MySlider from "./component/MySlider"; // 根據檔案路徑調整
+import MyPanel from './component/MyPanel';
 
 // App()是整個畫面的核心組件，React 會從這裡開始渲染畫面。
 function App() {
@@ -20,12 +21,14 @@ function App() {
         </a>
       </div>
       <h1>5B1G0030 蔡一菁</h1>
-      <h2>我的第一個元件: Slider</h2>
+      <h2>第一個元件: Slider</h2>
       <div>
         <p>R:<MySlider /></p>
         <p>G:<MySlider /></p>
         <p>B:<MySlider /></p>
       </div>
+      <h2>第二個元件: RGB面板</h2>
+      <MyPanel />
       
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>

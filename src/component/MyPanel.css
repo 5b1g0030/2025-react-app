@@ -1,0 +1,26 @@
+.panel {
+    width: 300px;
+    padding: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 20px auto; /* 水平置中 */
+}
+
+.sliders > div {
+    margin-bottom: 10px;
+}
+
+.color-box {
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 12px;
+}
+
+label{
+    color: white;
+}
